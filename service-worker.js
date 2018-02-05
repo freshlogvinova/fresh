@@ -221,7 +221,7 @@ self.addEventListener('fetch', function(event) {
 
     // If shouldRespond is false, check again, this time with 'index.html'
     // (or whatever the directoryIndex option is set to) at the end.
-    var directoryIndex = 'index.html';
+    var directoryIndex = '/fresh/index.html';
     if (!shouldRespond && directoryIndex) {
       url = addDirectoryIndex(url, directoryIndex);
       shouldRespond = urlsToCacheKeys.has(url);
