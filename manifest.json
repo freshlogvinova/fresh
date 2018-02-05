@@ -4,7 +4,7 @@
   "description": "Freshcode is a software development outsourcing company with a team of web and mobile developers who provide a wide range of services following agile methods. ",
   "lang": "en-US",
   "Scope":"/fresh/",
-  "start_url": "/fresh/",
+  "start_url": "/fresh/index.html",
   "dir": "auto",
   "display": "standalone",
   "orientation": "any",
